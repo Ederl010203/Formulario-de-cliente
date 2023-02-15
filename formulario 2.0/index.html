@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    
+    <title>Formulario de cliente</title>
+</head>
+<body> 
+    <div class="box">
+      <form action="https://formsubmit.co/DIGETESEUEMAIL.com" method="POST">
+     <fieldset>
+        <input type="hidden" name="_next" value="http://192.168.0.20:5500/index2.html">
+            <legend><b>Formulario de Clientes</b></legend>
+            <br> 
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome"  class="inputUser"  required >  <!-- o input adiciona os blocos ea label adiocina os nome no  input-->
+                <label for="name" class="labelInput">Nome completo</label> 
+            </div>
+          <br><br>
+            <div class="inputBox">
+                <input type="email" name="email" id="email"  class="inputUser"  required >  <!-- o input adiciona os blocos ea label adiocina os nome no  input-->
+            <label for="email" class="labelInput">Email</label> 
+        </div>
+         <br><br>
+        <div class="inputBox">
+            <input type="tel" name="telefone" id="telefone"  class="inputUser"  required >  <!-- o input adiciona os blocos ea label adiocina os nome no  input-->
+        <label for="telefone" class="labelInput">Telefone</label> 
+    </div>
+    <p>Sexo</p>
+    <input type="radio"  id="feminino" name="genero" value="feminino" required>
+    <label for="feminino">Feminino</label>
+    <br>
+    <input type="radio"  id="masculino" name="genero" value="masculino" required>
+    <label for="masculino">Masculino</label>
+    <br>
+    <input type="radio" id="outros" name="genero" value="outros" required>
+    <label for="outros">Outros</label>
+    <br><br>
+    
+        <label for="data_nascimento"><b>Data de nascimento</b>></label> 
+        <input type="date" name="data_nascimento" id="data_nascimento"   required >  <!-- o input adiciona os blocos ea label adiocina os nome no  input-->
+<br><br><br>
+<div class="inputBox">
+    <input type="text" name="cidade" id="cidade"  class="inputUser"  required >  <!-- o input adiciona os blocos ea label adiocina os nome no  input-->
+<label for="cidade" class="labelInput">Cidade</label>
+</div>
+<br><br>
+    <div class="inputBox">
+    <input type="text" name="estado" id="estado"  class="inputUser"  required >  <!-- o input adiciona os blocos ea label adiocina os nome no  input-->
+<label for="estado" class="labelInput">Estado</label> 
+  </div>
+  <br><br>
+<div class="inputBox">
+    <input type="text" name="endereco" id="endereco"  class="inputUser"  required >  <!-- o input adiciona os blocos ea label adiocina os nome no  input-->
+<label for="endereco" class="labelInput">Endereço</label>
+</div>
+<br><br>
+<input type="submit" name="submit" id="submit">
+    </fieldset>   
+     <input type="text" name="_honey" style="display:none">
+      </form>
+    </div>
+</body>
+</html>
